@@ -39,7 +39,7 @@ namespace edmxfile.Models
         public virtual DbSet<Product1> Products1 { get; set; }
         public virtual DbSet<TblUser> TblUsers { get; set; }
         public virtual DbSet<testview> testviews { get; set; }
-        public virtual DbSet<CompEmply> CompEmplies { get; set; }
+      
        
         public virtual DbSet<joincompemp> joincompemps { get; set; }
     
